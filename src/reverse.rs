@@ -42,11 +42,11 @@ pub fn reverse(x: i32) -> i32
 #[cfg(test)]
 mod test
 {
-	use super::reverse;
-	
-	#[test]
-	fn test_reverse()
-	{
-		assert_eq!(reverse(123), 321);
-	}
+    use super::reverse;
+
+    #[test]
+    fn test_reverse()
+    {
+        assert_eq!(reverse(123), 321);
+    }
 }
