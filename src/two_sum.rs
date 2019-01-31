@@ -12,20 +12,19 @@
 
 pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32>
 {
-	let n = nums.len();
-	for i in 0..n
-	{
-		for ii in (i + 1)..n
-		{
-			if nums[i] + nums[ii] == target
-			{
-				return vec![i as i32, ii as i32];
-			}
-		}
-	}
+    let n = nums.len();
+    for i in 0..n
+    {
+        for ii in (i + 1)..n
+        {
+            if nums[i] + nums[ii] == target
+            {
+                return vec![i as i32, ii as i32];
+            }
+        }
+    }
     vec![]
 }
-
 
 #[cfg(test)]
 mod test
