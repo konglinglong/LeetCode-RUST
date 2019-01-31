@@ -1,2 +1,2 @@
-# leetcode-rust
-leetcode rrust刷题
+# LeetCode-rust
+LeetCode rust刷题
