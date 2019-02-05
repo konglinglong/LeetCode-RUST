@@ -38,13 +38,6 @@
 /// 输出：0
 /// 解释：version1 没有第三级修订号，这意味着它的第三级修订号默认为 “0”。
 /// 
-///  
-/// 
-/// 提示：
-/// 
-///     版本字符串由以点 （.） 分隔的数字字符串组成。这个数字字符串可能有前导零。
-///     版本字符串不以点开始或结束，并且其中不会有两个连续的点。
-/// 
 
 pub fn compare_version(version1: String, version2: String) -> i32 {
     let v1: Vec<&str> = version1.split(".").collect();
