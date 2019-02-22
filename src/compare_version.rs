@@ -68,7 +68,7 @@ pub fn compare_version(version1: String, version2: String) -> i32 {
     	}
     }
     
-    return 0;
+     0
 }
 
 #[cfg(test)]
