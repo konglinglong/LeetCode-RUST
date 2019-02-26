@@ -8,3 +8,4 @@ pub mod majority_element;
 pub mod majority_element_2;
 pub mod convert_to_title;
 pub mod largest_number;
+pub mod min_stack;
