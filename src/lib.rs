@@ -12,3 +12,4 @@ pub mod min_stack;
 pub mod find_peak_element;
 pub mod add_two_numbers;
 pub mod longest_palindrome;
+pub mod merge_two_lists;
