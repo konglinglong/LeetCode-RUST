@@ -15,3 +15,4 @@ pub mod longest_palindrome;
 pub mod merge_two_lists;
 pub mod plus_one;
 pub mod remove_element;
+pub mod search_insert;
