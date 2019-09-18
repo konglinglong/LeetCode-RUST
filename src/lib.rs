@@ -16,3 +16,4 @@ pub mod merge_two_lists;
 pub mod plus_one;
 pub mod remove_element;
 pub mod search_insert;
+pub mod count_and_say;
