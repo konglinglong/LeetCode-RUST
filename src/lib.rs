@@ -17,3 +17,4 @@ pub mod plus_one;
 pub mod remove_element;
 pub mod search_insert;
 pub mod count_and_say;
+pub mod max_sub_array;
