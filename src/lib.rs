@@ -19,3 +19,4 @@ pub mod search_insert;
 pub mod count_and_say;
 pub mod max_sub_array;
 pub mod two_sum2;
+pub mod title_to_number;
