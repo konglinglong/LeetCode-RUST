@@ -21,3 +21,4 @@ pub mod max_sub_array;
 pub mod two_sum2;
 pub mod title_to_number;
 pub mod trailing_zeroes;
+pub mod my_pow;
