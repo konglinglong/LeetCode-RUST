@@ -88,8 +88,9 @@ pub fn merge_two_lists(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> 
 }
 
 #[cfg(test)]
+#[allow(unused_imports)]
 mod test {
-    use super::merge_two_lists;
+    use super::*;
 
     #[test]
     fn test_merge_two_lists() {

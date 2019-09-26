@@ -37,8 +37,9 @@ pub fn plus_one(digits: Vec<i32>) -> Vec<i32> {
 }
 
 #[cfg(test)]
+#[allow(unused_imports)]
 mod test {
-    use super::plus_one;
+    use super::*;
 
     #[test]
     fn test_aplus_one() {
