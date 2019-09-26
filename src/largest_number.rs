@@ -17,12 +17,10 @@ pub fn largest_number(nums: Vec<i32>) -> String {
 	let mut v: Vec<String> = nums.into_iter().map(|x| x.to_string()).collect();
 	v.sort_by(|a, b| {
 		let ord = (String::from("") + a + b).cmp(&(String::from("") + b + a));
-		if ord == Ordering::Equal {
-			Ordering::Equal
-		} else if ord == Ordering::Less {
-			Ordering::Greater
-		} else {
-			Ordering::Less
+		match ord {
+			Ordering::Equal => Ordering::Equal,
+			Ordering::Less => Ordering::Greater,
+			Ordering::Greater => Ordering::Less,
 		}
 	});
 	

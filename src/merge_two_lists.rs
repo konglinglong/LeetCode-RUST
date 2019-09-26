@@ -28,22 +28,23 @@
    }
  }
 
+#[allow(dead_code, non_snake_case)]
 pub fn merge_two_lists(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     let (mut l1, mut l2) = (l1, l2);
     let (mut l1Cursor, mut l2Cursor) = (&mut l1, &mut l2);
     let mut root = Some(Box::new(ListNode::new(0)));
     let mut cursor = &mut root;
 
-    let (mut l1IsEnd, mut l2IsEnd) = (false, false);
+    let (mut l1IsEnd, mut l2IsEnd);
     loop {
         if *l1Cursor == None && *l2Cursor == None{
             break;
         }
 
         l1IsEnd = false;
-        l1IsEnd = false;
+        l2IsEnd = false;
 
-        let mut l1Val = match l1Cursor {
+        let l1Val = match l1Cursor {
             Some(node) => {
                 node.val
             }
@@ -52,7 +53,7 @@ pub fn merge_two_lists(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> 
                 0
             }
         };
-        let mut l2Val = match l2Cursor {
+        let l2Val = match l2Cursor {
             Some(node) => {
                 node.val
             }
