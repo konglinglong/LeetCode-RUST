@@ -64,7 +64,7 @@ pub fn my_atoi(str: String) -> i32 {
 	
 	for (i, c) in s.char_indices() {
 		match c {
-			'0'...'9' => {
+			'0'..='9' => {
 				if state == State::Init {
 					state = State::NumBeg;
 					beg_pos = i;

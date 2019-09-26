@@ -20,7 +20,8 @@ pub fn longest_palindrome(s: String) -> String {
         return s;
     }
 
-    let (mut begin, mut end, mut left, mut right, mut max) = (0, 0, 0, 0, 0);
+    let (mut begin, mut end, mut max) = (0, 0, 0);
+    let (mut left, mut right);
     for mid in 0..len {
         left = mid;
         right = mid;

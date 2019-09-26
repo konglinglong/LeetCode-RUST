@@ -16,12 +16,14 @@
 /// minStack.top();      --> 返回 0.
 /// minStack.getMin();   --> 返回 -2.
 
+#[allow(dead_code, non_snake_case)]
 #[derive(Debug)]
 struct StackValue {
     value: i32,
     minValue: i32,
 }
 
+#[allow(dead_code)]
 #[derive(Debug)]
 struct MinStack {
     stack: Vec<StackValue>,
@@ -31,6 +33,8 @@ struct MinStack {
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
  */
+
+#[allow(dead_code)]
 impl MinStack {
 
     /** initialize your data structure here. */
@@ -41,7 +45,7 @@ impl MinStack {
     }
 
     fn push(&mut self, x: i32) {
-        let mut min: i32 = 0;
+        let min;
         if self.stack.len() > 0 && self.stack[self.stack.len() - 1].minValue < x {
             min = self.stack[self.stack.len() - 1].minValue;
         } else {
