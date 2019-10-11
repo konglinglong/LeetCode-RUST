@@ -23,3 +23,4 @@ pub mod title_to_number;
 pub mod trailing_zeroes;
 pub mod my_pow;
 pub mod first_missing_positive;
+pub mod multiply;
