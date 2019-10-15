@@ -26,3 +26,4 @@ pub mod first_missing_positive;
 pub mod multiply;
 pub mod climb_stairs;
 pub mod delete_duplicates;
+pub mod max_depth;
