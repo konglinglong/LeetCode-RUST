@@ -27,3 +27,4 @@ pub mod multiply;
 pub mod climb_stairs;
 pub mod delete_duplicates;
 pub mod max_depth;
+pub mod generate;
