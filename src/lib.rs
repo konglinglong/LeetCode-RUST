@@ -29,3 +29,4 @@ pub mod delete_duplicates;
 pub mod max_depth;
 pub mod generate;
 pub mod get_row;
+pub mod is_palindrome;
