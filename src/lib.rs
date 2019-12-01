@@ -30,3 +30,4 @@ pub mod max_depth;
 pub mod generate;
 pub mod get_row;
 pub mod is_palindrome;
+pub mod single_number;
