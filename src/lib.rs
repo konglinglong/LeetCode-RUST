@@ -32,3 +32,4 @@ pub mod get_row;
 pub mod is_palindrome;
 pub mod single_number;
 pub mod single_number2;
+pub mod rotate;
