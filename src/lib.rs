@@ -34,3 +34,4 @@ pub mod single_number;
 pub mod single_number2;
 pub mod rotate;
 pub mod str_str;
+pub mod tribonacci;
