@@ -35,3 +35,4 @@ pub mod single_number2;
 pub mod rotate;
 pub mod str_str;
 pub mod tribonacci;
+pub mod to_lower_case;
