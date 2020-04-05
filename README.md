@@ -1,2 +1,2 @@
-# LeetCode-rust
-LeetCode rust刷题
+# LeetCode-RUST
+LeetCode RUST语言刷题
