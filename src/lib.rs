@@ -37,3 +37,4 @@ pub mod str_str;
 pub mod tribonacci;
 pub mod to_lower_case;
 pub mod gray_code;
+pub mod is_power_of_two;
