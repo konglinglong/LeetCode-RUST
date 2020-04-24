@@ -39,3 +39,4 @@ pub mod to_lower_case;
 pub mod gray_code;
 pub mod is_power_of_two;
 pub mod is_power_of_three;
+pub mod is_power_of_four;
